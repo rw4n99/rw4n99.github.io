@@ -2,6 +2,7 @@
 /* add new fonts from Google Fonts: https://fonts.google.com */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
 
 .container {
   margin: 0 auto;
@@ -40,6 +41,11 @@ body {
 h1, h2, h3 {
   /* TODO: change the header font colour */
   color: #4D4C7D;
+}
+
+.heading {
+  color: #d9285d;
+  font-family: 'Big Shoulders Stencil', sans-serif;
 }
 
 h1 {
@@ -87,8 +93,8 @@ a:hover {
 
 .btn-blue {
   /* TODO: change the button colour */
-  background-color:#4D4C7D;
-  color: #E9D5CA;
+  background-color:#a42c36;
+  color: #ff5e08;
   padding: 15px 20px;
   border-radius: 4px;
 }
